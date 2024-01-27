@@ -40,4 +40,4 @@ jobs:
   skill_tests:
     uses: openvoiceos/.github/.github/workflows/skill_tests.yml@feat/shared_actions1
     with:
-      skill_testfile: test/unittest/test_skill.py
+      skill_testfile: test/unittests/test_skill.py
