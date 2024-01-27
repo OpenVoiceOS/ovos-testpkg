@@ -13,7 +13,6 @@ SKILL_PKG = SKILL_NAME.lower().replace('-', '_')
 PLUGIN_ENTRY_POINT = f'{SKILL_NAME.lower()}.{AUTHOR.lower()}={SKILL_PKG}:{SKILL_CLAZZ}'
 BASE_PATH = path.abspath(path.dirname(__file__))
 PKG_PATH = path.join(BASE_PATH, SKILL_PKG)
-print("PKG_PATH", PKG_PATH)
 
 
 def get_version():
@@ -72,7 +71,6 @@ def find_resource_files():
                     package_data.append(
                         path.join(directory.replace(PKG_PATH, "").lstrip('/'),
                                   '*'))
-    print("package_data", package_data)
     return package_data
 
 
