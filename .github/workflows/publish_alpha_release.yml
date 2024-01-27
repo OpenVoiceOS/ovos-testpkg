@@ -23,5 +23,5 @@ jobs:
     with:
       branch: dev
       version_file: ovos_testpkg/version.py
-      python_version: '"3.8"'
+      python_version: "3.10"
       locale_folder: ovos_core/locale

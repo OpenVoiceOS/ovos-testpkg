@@ -42,7 +42,7 @@ jobs:
     uses: openvoiceos/.github/.github/workflows/propose_translation.yml@feat/shared_actions1
     with:
       branch: dev                               # Branch to use, default: branch that triggered the action
-      python_version: '"3.8"'
+      python_version: "3.10"
       language: ${{ inputs.translation }}
       locale_folder: ovos_testpkg/locale/          # the location of the base localisation folder, default: locale
       reviewers: "jarbasai,emphasize"           # comma separated list of reviewers, default: emphasize
