@@ -9,7 +9,6 @@ DEFAULT_SETTINGS = {
     "my_setting": "x"
 }
 
-
 class ReplaceSkillNameSkill(OVOSSkill):
     
     @classproperty
