@@ -1,0 +1,11 @@
+name: Publish Stable Build
+on:
+  workflow_dispatch:
+
+jobs:
+  build_and_publish:
+    uses: openvoiceos/.github/.github/workflows/publish_stable_release.yml@feat/shared_actions1
+    secrets: inherit
+    with:
+      python_version: '"3.10"'
+      changelog_file: ChAnGeLoG.md

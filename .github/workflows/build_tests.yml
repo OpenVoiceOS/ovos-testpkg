@@ -1,0 +1,29 @@
+name: Build testing
+on:
+  push:
+    branches:
+      - testing
+      - stable
+  pull_request:
+    branches:
+      - dev
+    paths-ignore:
+      - 'ovos_testpkg/version.py'
+      - 'test/**'
+      - 'examples/**'
+      - '.github/**'
+      - '.gitignore'
+      - 'LICENSE'
+      - 'CHANGELOG.md'
+      - 'MANIFEST.in'
+      - 'README.md'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  build_tests:
+    uses: openvoiceos/.github/.github/workflows/python_build_tests.yml@feat/shared_actions1
+    with:
+      runner: ubuntu-latest
+      python_matrix: '["3.8", "3.9", "3.10", "3.11", "3.12"]'
+      test_pipaudit: true
