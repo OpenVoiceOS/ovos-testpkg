@@ -24,6 +24,5 @@ jobs:
   build_tests:
     uses: openvoiceos/.github/.github/workflows/python_build_tests.yml@feat/shared_actions1
     with:
-      runner: ubuntu-latest
       python_matrix: '["3.8", "3.9", "3.10", "3.11"]'
       test_pipaudit: true

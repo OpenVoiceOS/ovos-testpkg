@@ -22,6 +22,7 @@ jobs:
     secrets: inherit
     with:
       branch: dev
+      action_branch: feat/shared_actions1
       version_file: ovos_testpkg/version.py
       python_version: "3.10"
       locale_folder: ovos_core/locale
