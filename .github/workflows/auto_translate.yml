@@ -4,6 +4,7 @@ on:
 jobs:
   propose_translation:
     uses: openvoiceos/.github/.github/workflows/auto_translate.yml@feat/shared_actions1
+    secrets: inherit
     with:
       branch: dev
       action_branch: feat/shared_actions1
