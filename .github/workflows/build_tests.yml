@@ -3,10 +3,10 @@ on:
   pull_request:
     branches:
       - dev
-      - testing
-      - stable
+      - staging*
     paths-ignore:
       - 'ovos_testpkg/version.py'
+      - 'ovos_testpkg/locale/**'
       - 'test/**'
       - 'examples/**'
       - '.github/**'

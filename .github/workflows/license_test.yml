@@ -3,8 +3,17 @@ on:
   pull_request:
     branches:
       - dev
-      - testing
-      - stable
+      - staging*
+    paths-ignore:
+      - 'ovos_testpkg/version.py'
+      - 'ovos_testpkg/locale/**'
+      - 'examples/**'
+      - '.github/**'
+      - '.gitignore'
+      - 'LICENSE'
+      - 'CHANGELOG.md'
+      - 'MANIFEST.in'
+      - 'README.md'
   workflow_dispatch:
 
 jobs:
