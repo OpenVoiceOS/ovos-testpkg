@@ -10,6 +10,6 @@ on:
 
 jobs:
   release:
-    if: github.event.pull_request.merged == true && contains(github.event.pull_request.head.commit.message, 'patch release') || contains(github.event.pull_request.head.commit.message, 'minor release') || contains(github.event.pull_request.head.commit.message, 'major release')
+    if: github.event.pull_request.merged == true && (contains(github.event.pull_request.title, 'patch release') || contains(github.event.pull_request.title, 'minor release') || contains(github.event.pull_request.title, 'major release'))
     uses: openvoiceos/.github/.github/workflows/propose_semver_release_merged.yml@feat/shared_actions1
     secrets: inherit
