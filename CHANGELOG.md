@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.22](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.0.22) (2024-01-30)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.0.20a1...0.0.22)
+
+**Merged pull requests:**
+
+- Merge pull request \#6 from OpenVoiceOS/staging\_testing [\#7](https://github.com/OpenVoiceOS/ovos-testpkg/pull/7) ([emphasize](https://github.com/emphasize))
+- Propose testing Release [\#6](https://github.com/OpenVoiceOS/ovos-testpkg/pull/6) ([github-actions[bot]](https://github.com/apps/github-actions))
+
 ## [V0.0.20a1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.0.20a1) (2024-01-30)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.0.1a4...V0.0.20a1)
