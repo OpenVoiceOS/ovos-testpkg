@@ -1,0 +1,14 @@
+en-us:
+  HelloWorldIntent:
+    - hello world
+  HowAreYou.intent:
+    - how have you been
+  YesNoIntent:
+    - yes world
+    - no world
+
+unmatched intents:
+  en-us:
+    - hello there everyone
+    - what is this
+    - maybe world every
