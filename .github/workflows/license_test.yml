@@ -1,0 +1,27 @@
+name: License testing
+on:
+  pull_request:
+    branches:
+      - dev
+      - staging*
+      - testing
+      - stable
+    paths-ignore:
+      - 'ovos_testpkg/version.py'
+      - 'ovos_testpkg/locale/**'
+      - 'examples/**'
+      - '.github/**'
+      - '.gitignore'
+      - 'LICENSE'
+      - 'CHANGELOG.md'
+      - 'MANIFEST.in'
+      - 'README.md'
+  workflow_dispatch:
+
+jobs:
+  license_tests:
+    uses: openvoiceos/.github/.github/workflows/license_tests.yml@feat/shared_actions1
+    with:
+      runner: ubuntu-latest
+      action_branch: feat/shared_actions1
+      python-version: "3.10"
