@@ -1,20 +1,8 @@
 # Changelog
 
-## [V0.0.1a4](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.0.1a4) (2024-01-28)
+## [V0.0.20a1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.0.20a1) (2024-01-30)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.0.1a3...V0.0.1a4)
-
-## [V0.0.1a3](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.0.1a3) (2024-01-28)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.0.1a2...V0.0.1a3)
-
-## [V0.0.1a2](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.0.1a2) (2024-01-28)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V...V0.0.1a2)
-
-## [V](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V) (2024-01-27)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/2b6e8cb2568e3c1ac87da3a1706f00b8d2ca651b...V)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.0.1a4...V0.0.20a1)
 
 
 
