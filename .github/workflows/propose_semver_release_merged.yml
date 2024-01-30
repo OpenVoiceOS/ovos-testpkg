@@ -1,0 +1,36 @@
+name: Rebase dev after review
+
+# only trigger on pull request closed events
+on:
+  pull_request:
+    types: [ closed ]
+    branches:
+      - testing
+      - stable
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      release_type: ${{ steps.set_type.outputs.RELEASE_TYPE }}
+    steps:
+      - name: Set release type
+        id: set_type
+        run: |
+          RELEASE_TYPE=$(echo "${{ github.event.pull_request.title }}" | grep -o -E 'patch|minor|major')
+          echo "RELEASE_TYPE=$RELEASE_TYPE" >> $GITHUB_OUTPUT
+  rebase:
+    needs: setup
+    if: github.event.pull_request.merged == true && (contains(github.event.pull_request.title, 'patch release') || contains(github.event.pull_request.title, 'minor release') || contains(github.event.pull_request.title, 'major release'))
+    uses: openvoiceos/.github/.github/workflows/propose_semver_release_merged.yml@feat/shared_actions1
+    secrets: inherit
+    with:
+      release_type: ${{ needs.setup.outputs.release_type }}
+  publish:
+    needs: setup
+    if: github.event.pull_request.merged == true && (contains(github.event.pull_request.title, 'patch release') || contains(github.event.pull_request.title, 'minor release') || contains(github.event.pull_request.title, 'major release'))
+    uses: openvoiceos/.github/.github/workflows/publish_semver_release.yml@feat/shared_actions1
+    secrets: inherit
+    with:
+      action_branch: feat/shared_actions1
+      release_type:  ${{ needs.setup.outputs.release_type }}
