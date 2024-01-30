@@ -1,13 +1,12 @@
 # Changelog
 
-## [V0.0.34](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.0.34) (2024-01-30)
+## [V0.0.35](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.0.35) (2024-01-30)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.0.22a1...V0.0.34)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.0.34...V0.0.35)
 
 **Merged pull requests:**
 
-- Propose patch release [\#16](https://github.com/OpenVoiceOS/ovos-testpkg/pull/16) ([github-actions[bot]](https://github.com/apps/github-actions))
-- Propose patch release [\#15](https://github.com/OpenVoiceOS/ovos-testpkg/pull/15) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Propose patch release [\#17](https://github.com/OpenVoiceOS/ovos-testpkg/pull/17) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 
 
