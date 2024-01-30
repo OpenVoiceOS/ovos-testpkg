@@ -4,6 +4,8 @@ on:
     branches:
       - dev
       - staging*
+      - testing
+      - stable
     paths-ignore:
       - 'ovos_testpkg/version.py'
       - 'ovos_testpkg/locale/**'
