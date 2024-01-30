@@ -4,10 +4,6 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.0.1a3...V0.0.1a4)
 
-**Merged pull requests:**
-
-- Proposed ja-JP Translations [\#5](https://github.com/OpenVoiceOS/ovos-testpkg/pull/5) ([github-actions[bot]](https://github.com/apps/github-actions))
-
 ## [V0.0.1a3](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.0.1a3) (2024-01-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.0.1a2...V0.0.1a3)
@@ -16,9 +12,9 @@
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V...V0.0.1a2)
 
-**Merged pull requests:**
+## [V](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V) (2024-01-27)
 
-- bump [\#4](https://github.com/OpenVoiceOS/ovos-testpkg/pull/4) ([emphasize](https://github.com/emphasize))
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/2b6e8cb2568e3c1ac87da3a1706f00b8d2ca651b...V)
 
 
 
