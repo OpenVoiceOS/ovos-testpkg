@@ -44,4 +44,6 @@ jobs:
     uses: openvoiceos/.github/.github/workflows/pytest_file_or_dir.yml@feat/shared_actions1
     with:
       action_branch: feat/shared_actions1
-      skill_testfile: test/unittests/test_skill.py
+      test_location: test/unittests/test_skill.py
+      is_skill: true
+      codecov: false
