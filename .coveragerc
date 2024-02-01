@@ -1,3 +1,5 @@
 [run]
 omit =
     ovos_testpkg/version.py
+    ./*.py
+    test/**
