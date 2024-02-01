@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/ovos-testpkg/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.1.0...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.1.0a1...HEAD)
+
+**Merged pull requests:**
+
+- bump [\#24](https://github.com/OpenVoiceOS/ovos-testpkg/pull/24) ([emphasize](https://github.com/emphasize))
+
+## [V0.1.0a1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.1.0a1) (2024-02-01)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.1.0...V0.1.0a1)
 
 **Merged pull requests:**
 
