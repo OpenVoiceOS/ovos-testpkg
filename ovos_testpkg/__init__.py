@@ -12,7 +12,6 @@ DEFAULT_SETTINGS = {
 
 
 
-
 class ReplaceSkillNameSkill(OVOSSkill):
     
     @classproperty
