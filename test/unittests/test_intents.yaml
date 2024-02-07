@@ -17,7 +17,7 @@ en-us:
   HowAreYou.intent:
   - how has your day been
   - how have you been
-  - how are you doing
+  - how are you test doing
   YesNoIntent:
   - no world
   - yes world
@@ -38,8 +38,8 @@ fr-fr:
   - bonjour monde
   - salutations monde
   HowAreYou.intent:
-  - comment allez-vous ?
-  - comment s'est passée votre journée ?
+  - comment s'est passée votre journée?
+  - comment allez-vous?
   YesNoIntent:
   - oui monde
   - non monde
