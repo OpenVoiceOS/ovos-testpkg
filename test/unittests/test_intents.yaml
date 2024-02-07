@@ -1,14 +1,87 @@
+de-de:
+  HelloWorldIntent:
+  - grüße welt
+  - hallo welt
+  HowAreYou.intent:
+  - wie ist es ihnen ergangen?
+  - wie war ihr tag?
+  - wie geht es ihnen?
+  - wie geht es ihnen
+  YesNoIntent:
+  - ja welt
+  - keine welt
 en-us:
   HelloWorldIntent:
-    - hello world
+  - greetings world
+  - hello world
   HowAreYou.intent:
-    - how have you been
+  - how has your day been
+  - how have you been
+  - how are you
+  - how are you doing
   YesNoIntent:
-    - yes world
-    - no world
-
+  - no world
+  - yes world
+es-es:
+  HelloWorldIntent:
+  - saludos mundo
+  - hola mundo
+  HowAreYou.intent:
+  - ¿cómo le va?
+  - ¿cómo estás?
+  - ¿cómo te ha ido el día?
+  - cómo has estado
+  YesNoIntent:
+  - sí mundo
+  - no mundo
+fr-fr:
+  HelloWorldIntent:
+  - bonjour monde
+  - salutations monde
+  HowAreYou.intent:
+  - comment allez-vous ?
+  - comment s'est passée votre journée ?
+  YesNoIntent:
+  - oui monde
+  - non monde
+it-it:
+  HelloWorldIntent:
+  - saluti mondo
+  - ciao mondo
+  HowAreYou.intent:
+  - come sei stato
+  - come stai
+  - come stai?
+  - come è andata la giornata
+  YesNoIntent:
+  - no mondo
+  - sì mondo
+nl-nl:
+  HelloWorldIntent:
+  - groeten wereld
+  - hallo wereld
+  HowAreYou.intent:
+  - hoe gaat het met je?
+  - hoe was je dag
+  - hoe gaat het met u?
+  - hoe bent u geweest
+  YesNoIntent:
+  - geen wereld
+  - ja wereld
+pt-pt:
+  HelloWorldIntent:
+  - olá mundo
+  - saudações mundo
+  HowAreYou.intent:
+  - como está
+  - como tem estado
+  - como foi o teu dia
+  - como está a correr
+  YesNoIntent:
+  - sim mundo
+  - não mundo
 unmatched intents:
   en-us:
-    - hello there everyone
-    - what is this
-    - maybe world every
+  - hello there everyone
+  - what is this
+  - maybe world every
