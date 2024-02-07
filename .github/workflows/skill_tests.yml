@@ -34,6 +34,7 @@ jobs:
       action_branch: feat/shared_actions1
       intent_testfile: test/unittests/test_intents.yaml
       test_padatious: true
+      test_padacioso: false
 
   skill_tests:
     uses: openvoiceos/.github/.github/workflows/pytest_file_or_dir.yml@feat/shared_actions1
