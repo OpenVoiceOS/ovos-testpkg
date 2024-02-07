@@ -17,7 +17,6 @@ en-us:
   HowAreYou.intent:
   - how has your day been
   - how have you been
-  - how are you
   - how are you doing
   YesNoIntent:
   - no world
