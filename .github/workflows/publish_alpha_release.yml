@@ -26,3 +26,4 @@ jobs:
       version_file: ovos_testpkg/version.py
       python_version: "3.10"
       locale_folder: ovos_testpkg/locale
+      update_intentfile: test/unittests/test_intent.yaml
