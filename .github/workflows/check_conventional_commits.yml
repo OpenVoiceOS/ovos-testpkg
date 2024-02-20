@@ -1,0 +1,10 @@
+name: PR Conventional Commit Validation
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+jobs:
+  validate-pr-title:
+    uses: openvoiceos/.github/.github/workflows/check_conventional_commits.yml@feat/shared_actions1
+    secrets: inherit    
