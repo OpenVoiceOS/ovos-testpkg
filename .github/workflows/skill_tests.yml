@@ -5,7 +5,8 @@ on:
       - dev
       - staging*
       - testing
-      - stable
+      - master
+    # remove setup.py after testing
     paths-ignore:
       - 'ovos_testpkg/version.py'
       - 'ovos_testpkg/locale/**'
@@ -18,6 +19,7 @@ on:
       - 'MANIFEST.in'
       - 'README.md'
       - 'scripts/**'
+      - 'setup.py'
   workflow_dispatch:
 
 jobs:
