@@ -1,0 +1,18 @@
+name: Publish Stable Release
+
+# only trigger on pull request closed events
+on:
+  pull_request:
+    types: [ closed ]
+    branches:
+      - master
+
+jobs:
+  pull_testing_commits_to_dev:
+    if: (github.event.pull_request.merged == true) && (contains(github.event.pull_request.title, 'patch release stable') || contains(github.event.pull_request.title, 'minor release stable') || contains(github.event.pull_request.title, 'major release stable'))
+    uses: openvoiceos/.github/.github/workflows/release_semver_publish.yml@feat/shared_actions1
+    secrets: inherit
+    with:
+      action_branch: feat/shared_actions1
+      python_version: "3.10"
+      subject: ${{ github.event.pull_request.title }}
