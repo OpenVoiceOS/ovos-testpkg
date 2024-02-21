@@ -26,6 +26,7 @@ on:
 jobs:
   start_semver_release_mechanism:
     uses: openvoiceos/.github/.github/workflows/release_semver_start.yml@feat/shared_actions1
+    secrets: inherit
     with:
       branch: dev
       action_branch: feat/shared_actions1
