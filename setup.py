@@ -36,7 +36,7 @@ def get_version():
                 break
     version = f"{major}.{minor}.{build}"
     if alpha and int(alpha) > 0:
-        version += f"-a{alpha}"
+        version += f"a{alpha}"
     return version
 
 
