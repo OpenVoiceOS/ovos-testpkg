@@ -8,9 +8,11 @@ on:
 
 jobs:
   start_testing_phase:
-    if: (github.event.pull_request.merged == true) && (contains(github.event.pull_request.title, 'patch release') || contains(github.event.pull_request.title, 'minor release') || contains(github.event.pull_request.title, 'major release'))
+    if: github.actor != 'EggmanBot' && github.event.pull_request.merged == true && contains(fromJson('["patch release", "minor release", "major release"]'), github.event.pull_request.title)
     uses: openvoiceos/.github/.github/workflows/release_semver_versioning.yml@feat/shared_actions1
     secrets: inherit
     with:
+      action_branch: feat/shared_actions1
+      python_version: "3.10"
       version_file: ovos_testpkg/version.py
       subject: ${{ github.event.pull_request.title }}
