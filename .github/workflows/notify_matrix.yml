@@ -4,6 +4,8 @@ name: Notify Matrix Chat
 on:
   pull_request:
     types: [ closed ]
+    branches:
+      - dev
 
 jobs:
   notify_pr_matrix:
