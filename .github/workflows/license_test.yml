@@ -19,7 +19,8 @@ on:
 jobs:
   license_tests:
     uses: openvoiceos/.github/.github/workflows/license_tests.yml@feat/shared_actions1
+    if: github.actor != 'EggmanBot'
     with:
       runner: ubuntu-latest
       action_branch: feat/shared_actions1
-      python-version: "3.10"
+      python_version: "3.10"

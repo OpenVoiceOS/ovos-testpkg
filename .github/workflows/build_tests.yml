@@ -20,6 +20,7 @@ on:
 
 jobs:
   build_tests:
+    if: github.actor != 'EggmanBot'
     uses: openvoiceos/.github/.github/workflows/python_build_tests.yml@feat/shared_actions1
     with:
       python_matrix: '["3.8", "3.9", "3.10", "3.11"]'

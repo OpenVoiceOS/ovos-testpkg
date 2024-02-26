@@ -21,12 +21,14 @@ on:
 jobs:
   skill_install_test:
     uses: openvoiceos/.github/.github/workflows/skill_test_installation.yml@feat/shared_actions1
+    if: github.actor != 'EggmanBot'
     with:
       action_branch: feat/shared_actions1
       skill_id: ovos-testpkg.openvoiceos
       skill_location: ovos_testpkg
   skill_intent_test:
     uses: openvoiceos/.github/.github/workflows/skill_test_intents.yml@feat/shared_actions1
+    if: github.actor != 'EggmanBot'
     with:
       action_branch: feat/shared_actions1
       skill_id: ovos-testpkg.openvoiceos
@@ -34,12 +36,14 @@ jobs:
       test_padatious: true
   skill_resource_test:
     uses: openvoiceos/.github/.github/workflows/skill_test_resources.yml@feat/shared_actions1
+    if: github.actor != 'EggmanBot'
     with:
       action_branch: feat/shared_actions1
       skill_id: ovos-testpkg.openvoiceos
       resource_testfile: test/unittests/test_resources.yaml
   skill_tests:
     uses: openvoiceos/.github/.github/workflows/skill_tests.yml@feat/shared_actions1
+    if: github.actor != 'EggmanBot'
     with:
       action_branch: feat/shared_actions1
       skill_testfile: test/unittests/test_skill.py
