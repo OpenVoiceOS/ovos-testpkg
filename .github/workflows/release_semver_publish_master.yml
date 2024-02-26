@@ -1,0 +1,17 @@
+name: Publish Stable Release
+
+on:
+  pull_request:
+    types: [ closed ]
+    branches:
+      - master
+
+jobs:
+  publish_stable_release:
+    if: github.actor != 'EggmanBot' && github.event.pull_request.merged == true && contains(fromJson('["patch release stable", "minor release stable", "major release stable"]'), github.event.pull_request.title)
+    uses: openvoiceos/.github/.github/workflows/release_semver_publish.yml@feat/shared_actions1
+    secrets: inherit
+    with:
+      action_branch: feat/shared_actions1
+      python_version: "3.10"
+      subject: ${{ github.event.pull_request.title }}
