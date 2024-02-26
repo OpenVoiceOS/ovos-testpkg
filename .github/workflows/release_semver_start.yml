@@ -31,6 +31,7 @@ jobs:
   start_semver_release_mechanism:
     if: github.actor != 'EggmanBot'
     uses: openvoiceos/.github/.github/workflows/release_semver_start.yml@feat/shared_actions1
+    secrets: inherit
     with:
       branch: dev                                                  # Branch to use, default: branch that triggered the action
       action_branch: feat/shared_actions1                          # Shared action branch to use, default: main
