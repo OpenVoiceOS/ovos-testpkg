@@ -22,7 +22,6 @@ on:
       - 'ovos_testpkg/version.py'
       - 'test/**'
       - 'examples/**'
-      - '.github/**'
       - '.gitignore'
       - 'CHANGELOG.md'
       - 'MANIFEST.in'

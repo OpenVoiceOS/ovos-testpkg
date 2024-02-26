@@ -26,24 +26,16 @@ jobs:
       action_branch: feat/shared_actions1
       skill_id: ovos-testpkg.openvoiceos
       skill_location: ovos_testpkg
-  skill_intent_test:
-    uses: openvoiceos/.github/.github/workflows/skill_test_intents.yml@feat/shared_actions1
-    if: github.actor != 'EggmanBot'
-    with:
-      action_branch: feat/shared_actions1
-      skill_id: ovos-testpkg.openvoiceos
-      intent_testfile: test/unittests/test_intents.yaml
-      test_padatious: true
   skill_resource_test:
     uses: openvoiceos/.github/.github/workflows/skill_test_resources.yml@feat/shared_actions1
     if: github.actor != 'EggmanBot'
     with:
       action_branch: feat/shared_actions1
-      skill_id: ovos-testpkg.openvoiceos
-      resource_testfile: test/unittests/test_resources.yaml
+      intent_testfile: test/unittests/test_resources.yaml
   skill_tests:
-    uses: openvoiceos/.github/.github/workflows/skill_tests.yml@feat/shared_actions1
+    uses: openvoiceos/.github/.github/workflows/pytest_file_or_dir.yml@feat/shared_actions1
     if: github.actor != 'EggmanBot'
     with:
       action_branch: feat/shared_actions1
-      skill_testfile: test/unittests/test_skill.py
+      test_location: test/unittests/test_skill.py
+      is_skill: true
