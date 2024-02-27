@@ -5,6 +5,7 @@ on:
     types: [ closed ]
     branches:
       - testing
+      - dev
 
 jobs:
   start_testing_phase:
