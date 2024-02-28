@@ -1,0 +1,22 @@
+name: Manual Bump
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: 'The type of bump to perform'
+        required: true
+        type: choice
+        options:
+          - major
+          - minor
+          - patch
+
+jobs:
+  publish_stable_release:
+    uses: openvoiceos/.github/.github/workflows/release_semver_publish.yml@feat/shared_actions1
+    secrets: inherit
+    with:
+      action_branch: feat/shared_actions1
+      python_version: "3.10"
+      subject: ${{ inputs.bump }}

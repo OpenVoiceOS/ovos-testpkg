@@ -1,0 +1,13 @@
+name: Manual Bump alpha
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish_alpha_release:
+    uses: openvoiceos/.github/.github/workflows/release_alpha.yml@feat/shared_actions1
+    secrets: inherit
+    with:
+      action_branch: feat/shared_actions1
+      version_file: ovos_testpkg/version.py
+      python_version: "3.10"
