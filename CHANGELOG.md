@@ -1,8 +1,25 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/ovos-testpkg/tree/HEAD)
+## [V0.2.0](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.2.0) (2024-02-28)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.1.0a15...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.1.0a16...V0.2.0)
+
+**Merged pull requests:**
+
+- fix: bump [\#71](https://github.com/OpenVoiceOS/ovos-testpkg/pull/71) ([emphasize](https://github.com/emphasize))
+- fix: bump [\#69](https://github.com/OpenVoiceOS/ovos-testpkg/pull/69) ([emphasize](https://github.com/emphasize))
+- fix: bump [\#67](https://github.com/OpenVoiceOS/ovos-testpkg/pull/67) ([emphasize](https://github.com/emphasize))
+- fix: bump [\#65](https://github.com/OpenVoiceOS/ovos-testpkg/pull/65) ([emphasize](https://github.com/emphasize))
+- fix: bump [\#63](https://github.com/OpenVoiceOS/ovos-testpkg/pull/63) ([emphasize](https://github.com/emphasize))
+- fix: bump [\#61](https://github.com/OpenVoiceOS/ovos-testpkg/pull/61) ([emphasize](https://github.com/emphasize))
+- fix: bump [\#60](https://github.com/OpenVoiceOS/ovos-testpkg/pull/60) ([emphasize](https://github.com/emphasize))
+- fix: bump [\#59](https://github.com/OpenVoiceOS/ovos-testpkg/pull/59) ([emphasize](https://github.com/emphasize))
+- fix: bump [\#58](https://github.com/OpenVoiceOS/ovos-testpkg/pull/58) ([emphasize](https://github.com/emphasize))
+- fix: bump [\#57](https://github.com/OpenVoiceOS/ovos-testpkg/pull/57) ([emphasize](https://github.com/emphasize))
+
+## [V0.1.0a16](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.1.0a16) (2024-02-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.1.0a15...V0.1.0a16)
 
 **Merged pull requests:**
 
@@ -149,6 +166,10 @@
 ## [V0.0.1a2](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.0.1a2) (2024-01-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V...V0.0.1a2)
+
+## [V](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V) (2024-01-27)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/2b6e8cb2568e3c1ac87da3a1706f00b8d2ca651b...V)
 
 
 
