@@ -17,6 +17,7 @@ jobs:
     uses: openvoiceos/.github/.github/workflows/release_semver_publish.yml@feat/shared_actions1
     secrets: inherit
     with:
+      branch: dev
       action_branch: feat/shared_actions1
       python_version: "3.10"
       subject: ${{ inputs.bump }}
