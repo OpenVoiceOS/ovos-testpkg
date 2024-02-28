@@ -1,5 +1,13 @@
 # Changelog
 
+## [V0.2.1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.2.1) (2024-02-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.2.0a1...V0.2.1)
+
+## [V0.2.0a1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.2.0a1) (2024-02-28)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.2.0...V0.2.0a1)
+
 ## [V0.2.0](https://github.com/OpenVoiceOS/ovos-testpkg/tree/V0.2.0) (2024-02-28)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.1.0a16...V0.2.0)
