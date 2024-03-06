@@ -8,7 +8,12 @@ on:
 
 jobs:
   start_testing_phase:
-    if: (github.actor != 'EggmanBot' && github.event.pull_request.merged == true && contains(fromJson('["patch release", "minor release", "major release"]'), github.event.pull_request.title))
+    if: >
+      github.event.pull_request.merged == true &&
+      github.actor != 'EggmanBot' &&
+      (contains(github.event.pull_request.title, 'patch release') ||
+      contains(github.event.pull_request.title, 'minor release') ||
+      contains(github.event.pull_request.title, 'major release'))
     uses: openvoiceos/.github/.github/workflows/release_semver_versioning.yml@feat/shared_actions1
     secrets: inherit
     with:
