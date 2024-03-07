@@ -9,11 +9,6 @@ on:
           - "patch"
           - "minor"
           - "major"
-      kickoff_pr:
-        type: choice
-        options:
-          - "true"
-          - "false"
   # Make SURE that sqashed PRs do have the PRs title as commit message !!!!!!!!
   push:
     branches:
@@ -41,5 +36,4 @@ jobs:
       update_intentfile: test/unittests/test_intent.yaml           # the intent file resources gets tested against
       release_type: ${{ inputs.release_type || null }}             # if manually triggered, set a release type
       subject: ${{  github.event.head_commit.message || null }}    # on push, the commit message is used as release subject
-      kickoff_pr: ${{ fromJson( inputs.kickoff_pr || 'true' ) }}   # if the release process should be started with a PR to summarize and visualize, default: false
 
