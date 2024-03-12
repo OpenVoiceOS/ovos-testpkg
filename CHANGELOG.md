@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.14a1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.14a1) (2024-03-12)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.13a1...0.3.14a1)
+
+**Merged pull requests:**
+
+- fix\(tts\): bump [\#125](https://github.com/OpenVoiceOS/ovos-testpkg/pull/125) ([emphasize](https://github.com/emphasize))
+
 ## [0.3.13a1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.13a1) (2024-03-10)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.12a4...0.3.13a1)
