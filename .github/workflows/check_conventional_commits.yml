@@ -1,5 +1,7 @@
 name: Status Check (Labelling conventional commits and testing phase)
 on:
+  workflow_dispatch:
+    
   schedule:
     - cron:  '52 12 * * *'
 
