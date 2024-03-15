@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.22a2](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.22a2) (2024-03-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.22a1...0.3.22a2)
+
+**Merged pull requests:**
+
+- fix: bump [\#148](https://github.com/OpenVoiceOS/ovos-testpkg/pull/148) ([emphasize](https://github.com/emphasize))
+
 ## [0.3.22a1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.22a1) (2024-03-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.21a2...0.3.22a1)
