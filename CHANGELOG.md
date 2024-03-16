@@ -7,26 +7,38 @@
 **Merged pull requests:**
 
 - release\(nlp\): bump [\#174](https://github.com/OpenVoiceOS/ovos-testpkg/pull/174) ([emphasize](https://github.com/emphasize))
-- release\(parser\): bump [\#173](https://github.com/OpenVoiceOS/ovos-testpkg/pull/173) ([emphasize](https://github.com/emphasize))
-- release\(sst\): bump [\#172](https://github.com/OpenVoiceOS/ovos-testpkg/pull/172) ([emphasize](https://github.com/emphasize))
-- release\(tts\): bump [\#171](https://github.com/OpenVoiceOS/ovos-testpkg/pull/171) ([emphasize](https://github.com/emphasize))
-- release: bump [\#170](https://github.com/OpenVoiceOS/ovos-testpkg/pull/170) ([emphasize](https://github.com/emphasize))
 
 ## [0.3.32a6](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.32a6) (2024-03-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.32a5...0.3.32a6)
 
+**Merged pull requests:**
+
+- release\(parser\): bump [\#173](https://github.com/OpenVoiceOS/ovos-testpkg/pull/173) ([emphasize](https://github.com/emphasize))
+
 ## [0.3.32a5](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.32a5) (2024-03-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.32a4...0.3.32a5)
+
+**Merged pull requests:**
+
+- release\(sst\): bump [\#172](https://github.com/OpenVoiceOS/ovos-testpkg/pull/172) ([emphasize](https://github.com/emphasize))
 
 ## [0.3.32a4](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.32a4) (2024-03-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.32a3...0.3.32a4)
 
+**Merged pull requests:**
+
+- release\(tts\): bump [\#171](https://github.com/OpenVoiceOS/ovos-testpkg/pull/171) ([emphasize](https://github.com/emphasize))
+
 ## [0.3.32a3](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.32a3) (2024-03-15)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.32a2...0.3.32a3)
+
+**Merged pull requests:**
+
+- release: bump [\#170](https://github.com/OpenVoiceOS/ovos-testpkg/pull/170) ([emphasize](https://github.com/emphasize))
 
 ## [0.3.32a2](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.32a2) (2024-03-15)
 
