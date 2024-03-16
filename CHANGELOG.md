@@ -1,17 +1,22 @@
 # Changelog
 
-## [0.3.32a8](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.32a8) (2024-03-16)
+## [0.3.33a1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.33a1) (2024-03-16)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.32a7...0.3.32a8)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.32a8...0.3.33a1)
 
 **Merged pull requests:**
 
+- chore: bump [\#176](https://github.com/OpenVoiceOS/ovos-testpkg/pull/176) ([emphasize](https://github.com/emphasize))
 - release: bump [\#175](https://github.com/OpenVoiceOS/ovos-testpkg/pull/175) ([emphasize](https://github.com/emphasize))
 - release\(nlp\): bump [\#174](https://github.com/OpenVoiceOS/ovos-testpkg/pull/174) ([emphasize](https://github.com/emphasize))
 - release\(parser\): bump [\#173](https://github.com/OpenVoiceOS/ovos-testpkg/pull/173) ([emphasize](https://github.com/emphasize))
 - release\(sst\): bump [\#172](https://github.com/OpenVoiceOS/ovos-testpkg/pull/172) ([emphasize](https://github.com/emphasize))
 - release\(tts\): bump [\#171](https://github.com/OpenVoiceOS/ovos-testpkg/pull/171) ([emphasize](https://github.com/emphasize))
 - release: bump [\#170](https://github.com/OpenVoiceOS/ovos-testpkg/pull/170) ([emphasize](https://github.com/emphasize))
+
+## [0.3.32a8](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.32a8) (2024-03-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.32a7...0.3.32a8)
 
 ## [0.3.32a7](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.32a7) (2024-03-16)
 
