@@ -1,11 +1,12 @@
 # Changelog
 
-## [0.3.32a9](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.32a9) (2024-03-16)
+## [0.3.33a3](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.33a3) (2024-03-17)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.33a2...0.3.32a9)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.33a2...0.3.33a3)
 
 **Merged pull requests:**
 
+- fix: bump [\#179](https://github.com/OpenVoiceOS/ovos-testpkg/pull/179) ([emphasize](https://github.com/emphasize))
 - release\(tts\): bump [\#178](https://github.com/OpenVoiceOS/ovos-testpkg/pull/178) ([emphasize](https://github.com/emphasize))
 
 ## [0.3.33a2](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.33a2) (2024-03-16)
