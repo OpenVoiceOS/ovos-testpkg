@@ -1,0 +1,7 @@
+name: Clear Test Flag
+on:
+  workflow_dispatch:
+
+jobs:
+  status_check:
+    uses: openvoiceos/.github/.github/workflows/clear_test_phase.yml@feat/shared_actions1
