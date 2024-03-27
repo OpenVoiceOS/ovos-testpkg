@@ -4,4 +4,5 @@ on:
 
 jobs:
   status_check:
+    secrets: inherit
     uses: openvoiceos/.github/.github/workflows/clear_test_phase.yml@feat/shared_actions1
