@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.44a1](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.44a1) - 2024-04-02
+### [Latest Changes](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.43...0.3.44a1)
+### [Release Cycle Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.43...0.3.44a1)
+
+### 🐛 Bug Fixes
+
+- Bump
+- *(scope)* Bump ([#223](https://github.com/OpenVoiceOS/ovos-testpkg/pull/223))
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump
+
 ## [0.3.43a5](https://github.com/OpenVoiceOS/ovos-testpkg/tree/0.3.43a5) - 2024-03-27
 ### [Latest Changes](https://github.com/OpenVoiceOS/ovos-testpkg/compare/0.3.43a4...0.3.43a5)
 ### [Release Cycle Changelog](https://github.com/OpenVoiceOS/ovos-testpkg/compare/V0.2.2...0.3.43a5)
